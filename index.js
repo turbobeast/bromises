@@ -82,7 +82,7 @@ var bromise = function (funk) {
     }
   };
 
-  funk.apply(this, [bro.bigup, bro.cockblock]);
+  funk.apply(bro, [bro.bigup, bro.cockblock]);
   return bro;
 };
 
