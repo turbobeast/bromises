@@ -1,0 +1,13 @@
+{
+  "name": "bromises",
+  "version": "0.0.1",
+  "description": "light-weight promise library.. with funny names",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "promises",
+    "bros"
+  ],
+  "author": "George Michael Faust <georgemichaelfaust@gmail.com> (http://georgemichaelfaust.com/)",
+  "license": "MIT"
+}
