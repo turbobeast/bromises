@@ -1,13 +1,19 @@
 {
   "name": "bromises",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "light-weight promise library.. with stupid names",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+      "test": "node test/index.js | faucet"
+  },
   "keywords": [
     "promises",
     "bros"
   ],
   "author": "George Michael Faust <georgemichaelfaust@gmail.com> (http://georgemichaelfaust.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.4.0"
+  }
 }
